@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Menú</title>
+<style type="text/css">
+#menu-wrapper ul {padding:0;
+list-style:none;
+}
+#hmenu >li {
+	display:inline-block;
+}
+#hmenu > li > a{
+	display:block;
+padding:10px 20px;
+width: 40px;
+}
+li ul{
+	position: absolute;
+	display:none;
+}
+
+li:hover ul {
+	display:block;
+}
+
+#menu-wrapper, li ul{
+	background: #333;
+}
+
+#hmenu{
+	width: 800px;
+	margin: 0 auto;
+}
+
+#hmenu a {
+	color:#fff;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+#hmenu li:hover{
+	background:#a3cd39;
+	text-shadow: 0 0 2px #000;}
+
+</style>
+</head>
+<body>
+<nav>
+<center><h1>BBC</h1></center>
+<div id="menu-wrapper">
+    <ul id ="hmenu">
+    <li class="news"> <a href="#">News</a> </li>
+<li class="sport"> <a href="#">Sport</a> </li>
+<li class="weather"> <a href="#">Weather</a> </li>
+<li class="capital"> <a href="#">Capital</a> </li>
+<li class="culture"> <a href="#">Culture</a> </li>
+<li class="autos"> <a href="#">Autos</a> </li>
+<li class="tv"> <a href="#">TV</a> </li>
+<li class="radio"> <a href="#">Radio</a> </li>
+<li class="more"> <a href="#">More...</a> </li>
+
+</ul>
+</div>
+
+</nav>
+</body>
+</html>

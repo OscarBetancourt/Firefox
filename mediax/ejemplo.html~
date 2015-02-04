@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+ 
+<html lang="es">
+ 
+<head>
+<title>curso</title>
+<meta charset="utf-8" />
+ <style type="text/css" > 
+   h1 {color: blue;}
+   h2 {color:red ;} 
+   p {color : black ;}
+ </style>
+</head>
+ 
+
+    <section>
+       <h1>Curso Html</h1>
+       <p>Contenido</p>
+    
+    <section>
+           <h2>Titilo de contenido<h2>
+           <p>Creado para el curso Desarrollo en HTML5, CSS y 		   Javascript de WebApps, incl.móviles   		   		   FirefoxOS* (4.ª ed.)  </p>
+    </section>
+    <aside>
+       <h3>Titulo de contenido</h3>
+           <p>contenido</p>
+    </aside>
+ </section>   
+ <footer>
+        Creado para el curso Desarrollo en HTML5
+    </footer>

@@ -1,0 +1,27 @@
+body {
+	background-color: #eee;
+	color: #346;
+	font-family: verdana, helvetica, sans-serif;
+}
+section {
+  border: 1px solid #ddd;
+  background-color: #fff;
+  padding: 25px;
+  margin: 25px auto;
+  width: 80%;
+  max-width: 800px;
+}
+#fecha {
+  font-size: small;
+  color: #999;
+  font-style: italic;
+}
+#segunda {
+  background-color: #349;
+  color: #eee;
+  font-size: 0.9em;
+  line-height: 1.5;
+}
+#segunda a {
+  color: #fc0;
+}

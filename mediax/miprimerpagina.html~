@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+  	
+  <head>
+	<meta charset="utf-8">
+        <style type="text/css"> 
+    	       body {background-color: black; font-family :Arial; color: red;}
+               h3 { background-color: red;color: blue;} 
+  	</style> 
+	<title>Mi primera página</title>
+ </head>
+	<body>
+		Hola mundo
+        <h3>mi primera pagina</h3>
+        <a href="http://www.upm.es">otra</a>  
+</body>
+</html>

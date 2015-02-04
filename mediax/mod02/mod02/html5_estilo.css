@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+.caja header {
+	background-color: #CCC;
+	padding: 5px;
+	text-align: center;
+	margin-bottom: 5px;
+}
+.caja header h1 {
+	margin: 0px;
+	padding: 0px;
+}
+.caja nav {
+	background-color: #CCC;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #000;
+	margin-bottom: 5px;
+}
+.caja nav ul {
+	margin: 0px;
+	padding: 5px;
+	list-style-type: none;
+}
+.caja nav ul li {
+	display: inline;
+}
+.caja nav ul li a {
+	padding-right: 5px;
+	padding-left: 5px;
+	color: #000;
+	background-color: #E6E6E6;
+}
+.caja article {
+	width: 60%;
+	float: left;
+	background-color: #CCCCCC;
+	height: 4em;
+	padding: 5px;
+}
+.caja aside {
+	float: right;
+	width: 34%;
+	background-color: #CCC;
+	height: 4em;
+	margin-bottom: 5px;
+	padding: 5px;
+}
+.caja footer {
+	background-color: #CCC;
+	font-size: small;
+	padding: 5px;
+	clear: both;
+}
+.caja {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+}
+

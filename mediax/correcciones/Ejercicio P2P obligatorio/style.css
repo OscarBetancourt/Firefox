@@ -1,0 +1,69 @@
+body{
+	background-color: #D8D8D8;
+	font-family: 'Cinzel', serif;
+	color: black;
+	font-size: 16px;
+}
+.contenedor{
+	width: 60%;
+	max-width: 900px;
+	margin: 0px auto 0px;
+}
+header{
+	text-align: center;
+	margin-top: 40px;
+}
+h1{
+	font-family: "Open Sans", sans-serif;
+	color: rgb(78, 78, 78);
+	font-size: 20px;
+	font-weight: 700;
+	margin: 0px 0px 20px;
+	padding-top: 20px;
+}
+h2{
+	color: rgb(78, 78, 78);
+	font-size: 22px;
+	font-weight: 900;
+}
+h4{
+	font-family: "Open Sans", sans-serif;
+	color: rgb(78, 78, 78);
+	font-size: 14px;
+}
+#fecha{
+	font-family: 'Cinzel', serif;
+	color: grey;
+	font-size: 14px;
+}
+article{
+	margin-top: 30px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+article p{
+	font-family: 'Lora', serif;
+	color: rgb(78, 78, 78);
+	text-align: justify;
+}
+article blockquote{
+	font-family: 'Poiret One', cursive;
+}
+.enlace{
+	text-align: right;
+}
+.enlace a{
+	color: grey;
+	padding: 4px 20px 4px;
+	text-decoration: none;
+}
+.enlace a:hover{
+	color: black;
+	padding: 4px 20px 4px;
+	background-color: white;
+	text-decoration: none;
+}
+blockquote:hover{
+	font-size: 22px;
+	transition: all 0.4s ease-in-out;
+}
