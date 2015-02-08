@@ -1,0 +1,24 @@
+
+
+.caja {
+	height: 400px;
+	width: 600px;
+	border: 5px solid #E28204;
+	margin-left: 300px ; 
+	margin-top: 50px;
+	padding: 10px;
+	border-radius:24px;
+	box-shadow: 0 0 5px 10px #888;
+	
+}
+
+body {
+      background: linear-gradient(to bottom, rgba(240,183,161,1) 0%,rgba(140,51,16,1) 80%,rgba(117,34,1,1) 51%,rgba(191,110,78,1) 100%);
+     }
+.caja{
+    
+    background:url(../img/6.png) right bottom no-repeat, url(../img/4.png) left top no-repeat,
+    url(../img/7.png) no-repeat;
+	background-color: #a4d3ff;
+	
+   } 
